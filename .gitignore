@@ -45,3 +45,5 @@ Desktop.ini
 .patch
 *.zip
 *.gz
+
+database.db
