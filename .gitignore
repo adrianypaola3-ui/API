@@ -1,4 +1,4 @@
-# --- Dependências (Node, Python, PHP, etc.) ---
+
 node_modules/
 jspm_packages/
 vendor/
@@ -10,7 +10,6 @@ venv/
 .env.test.local
 .env.production.local
 
-# --- Builds, Logs e Arquivos Temporários ---
 dist/
 build/
 bin/
@@ -20,7 +19,6 @@ obj/
 *.temp
 .cache/
 
-# --- IDEs e Editores (VS Code, JetBrains, etc.) ---
 .vscode/
 .idea/
 *.suo
@@ -29,18 +27,14 @@ obj/
 *.sln
 *.sw?
 
-# --- Sistema Operacional ---
-# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# --- Outros ---
 .git/
 .patch
 *.zip

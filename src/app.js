@@ -5,7 +5,6 @@ import { createTable } from './Controller/pessoa.js';
 const app = express();
 app.use(express.json());
 
-// Inicia a tabela ao rodar o servidor
 createTable();
 
 app.use(router);
